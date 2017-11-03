@@ -107,7 +107,7 @@ h1 .title {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
     .hero {
         padding             : 45px;
     }
