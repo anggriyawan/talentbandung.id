@@ -130,6 +130,10 @@ h1 .title {
         margin-bottom       : 60px;
     }
 
+    .taman-balkot {
+        width               : 75% !important;
+    }
+
     .map img {
         height              : 210px;
     }
@@ -141,11 +145,10 @@ h1 .title {
 
 @media screen and (max-width: 640px) {
     .taman-balkot {
-        display: inline-block;
-        width: 27%;
+        width               : 27%;
     }
 
     .taman-balkot img {
-        width: 100%;
+        width               : 100%;
     }
 }
