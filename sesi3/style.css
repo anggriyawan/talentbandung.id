@@ -67,36 +67,36 @@ h2 .subtitle {
 }
 
 .button1 {
-    background-color: #22b8cf;
-    text-align: center;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 25px;
-    margin-right: 5px;
-    cursor: pointer;
+    background-color        : #22b8cf;
+    text-align              : center;
+    color                   : white;
+    padding                 : 10px 15px;
+    border                  : none;
+    border-radius           : 25px;
+    margin-right            : 5px;
+    cursor                  : pointer;
 }
 
 .button2 {
-    background-color: #329af0;
-    text-align: center;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 25px;
-    margin-left: 5px;
-    cursor: pointer;
+    background-color        : #329af0;
+    text-align              : center;
+    color                   : white;
+    padding                 : 10px 15px;
+    border                  : none;
+    border-radius           : 25px;
+    margin-left             : 5px;
+    cursor                  : pointer;
 }
 
 .footer {
-    font-size: 16px;
+    font-size               : 16px;
 }
 
 
 /* CSS untuk MAP */
 .map {
-    position: relative;
-    margin-bottom: 100px;
+    position                : relative;
+    margin-bottom           : 100px;
 }
 
 .map img {
@@ -107,42 +107,42 @@ h2 .subtitle {
 /* Responsive Rule */
 @media screen and (max-width: 360px) {
     .button1 {
-        margin: 0 0 20px;
+        margin              : 0 0 20px;
     }
 
     .button2 {
-        margin: 0;
+        margin              : 0;
     }
 }
 
 @media screen and (max-width: 480px) {
     .hero {
-        padding: 45px;
+        padding             : 45px;
     }
 
     h1 .subtitle {
-        font-size: 35px;
-        margin-top: 0px;
+        font-size           : 35px;
+        margin-top          : 0px;
     }
 
     h1 .title {
-        font-size: 45px;
-        margin-bottom: 55px;
+        font-size           : 45px;
+        margin-bottom       : 55px;
     }
 
     .hero p {
-        padding: 0;
+        padding             : 0;
     }
 
     .foto-balai-kota {
-        margin-bottom: 60px;
+        margin-bottom       : 60px;
     }
 
     .map img {
-        height: 210px;
+        height              : 210px;
     }
 
     .footer {
-        font-size: 12px;
+        font-size           : 12px;
     }
 }
