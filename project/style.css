@@ -1,0 +1,173 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: royalblue;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul,
+ol {
+    margin: 0 0 1.5em 3em;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.top-nav {
+    position: fixed;
+    height: 90px;
+    background: #ffffff;
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 0 1px 0 rgba(12, 13, 14, 0.1), 0 1px 3px rgba(12, 13, 14, 0.1), 0 4px 20px rgba(12, 13, 14, 0.035), 0 1px 1px rgba(12, 13, 14, 0.025);
+}
+
+.site-logo {
+    display: inline;
+    float: left;
+    height: 60px;
+}
+
+.site-logo img {
+    margin: -10px 0px 0px 0px;
+    height: 75px;
+}
+
+.top-navigation {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.top-navigation a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+    line-height: 60px;
+    padding: 13.5px 15px;
+}
+
+.top-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.top-navigation li {
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.sub-menu {
+    display: none;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 0px;
+    font-size: 12px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.08);
+    float: left;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}
