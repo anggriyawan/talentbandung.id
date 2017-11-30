@@ -1,0 +1,7 @@
+/Tugas Akhir talentbandung.id - "Kebun Seni Tamansari Bandung"
+
+//Halaman yang belum beres:
+
+Profil: 8
+Shworoom: 9
+Pagelaran: 4
