@@ -301,6 +301,7 @@ button.submit {
 }
 button.submit img {
   height: 20px;
+  width: auto;
 }
 button.submit:hover {
   opacity: 0.5;
@@ -1098,9 +1099,6 @@ a.lightbox-close:after {
   /* Header */
   .search {
     display: none;
-  }
-  .search .submit img {
-    width: auto;
   }
   .title-menu {
     width: auto;
