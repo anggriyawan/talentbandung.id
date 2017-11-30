@@ -1099,6 +1099,9 @@ a.lightbox-close:after {
   .search {
     display: none;
   }
+  .search .submit img {
+    width: auto;
+  }
   .title-menu {
     width: auto;
     transition: top .5s ease-in-out;
