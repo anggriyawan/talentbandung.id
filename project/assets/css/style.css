@@ -445,6 +445,7 @@
 
     button.submit img {
         height: 20px;
+        width: auto;
     }
 
     button.submit:hover {
