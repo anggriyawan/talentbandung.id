@@ -1126,7 +1126,7 @@
 
     .site-footer {
         background-color: #f1f1f1;
-        width: 1366px;
+        width: 100%;
         max-width: calc( 100% + 20px);
         margin: 0 auto;
         overflow: hidden;
