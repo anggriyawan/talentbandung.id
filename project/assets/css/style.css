@@ -1119,6 +1119,8 @@
     .column p {
         display: block;
         margin: 1em 0 0;
+        line-height: 25px;
+        font-size: 14px;
     }
 
     .site-footer {
@@ -1175,6 +1177,11 @@
         font-size: 12px;
         color: #fff;
         letter-spacing: 1px;
+    }
+
+    .column.full p {
+        line-height: 10px;
+        font-size: 12px;
     }
 
     .column.full a {
